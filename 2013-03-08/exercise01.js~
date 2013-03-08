@@ -8,7 +8,7 @@ function pushFirstsN(n){
 
 // exercise01b
 function filterOdd(array){
-	return array.filter(function(item){return (item % 2 === 0);});
+	return array.filter(function(item){return (item % 2 !== 0);});
 }
 
 // exercise01c
